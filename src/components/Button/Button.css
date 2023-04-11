@@ -1,0 +1,30 @@
+button {
+    border: 1.4px solid var(--color-blue);
+    border-radius: 55px;
+    max-width: 200px;
+    font-family: var(--font-text);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 48px;
+    color: var(--color-blue);
+    background: transparent;
+    padding: 0 3rem;
+    transition: 0.5s ease-in;
+    margin-top: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button:hover {
+    color: var(--color-white);
+    background: var(--color-blue);
+}
+
+@media screen and (max-width: 1150px) {
+    button {
+        margin: 2rem auto;
+    }
+}
+

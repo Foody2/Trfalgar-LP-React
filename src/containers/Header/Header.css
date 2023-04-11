@@ -1,0 +1,35 @@
+.app__header {
+    position: relative;
+}
+
+.app__header-element {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.app__cta-btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.app__cta-btn button {
+    background: var(--color-blue);
+    border-radius: 55px;
+    border: none;
+    outline: none;
+    font-family: var(--font-text);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+@media screen and (max-width: 1150px) {
+  
+}

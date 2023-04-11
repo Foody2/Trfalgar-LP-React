@@ -1,0 +1,51 @@
+.app__healt_providers {
+    margin: 5rem 6rem 5rem 0;
+    position: relative;
+}
+
+.app__healt_providers-bg {
+    position: absolute;
+    top: 95%;
+    right: -5%;
+}
+
+.app__wrapper_health_img img {
+    max-width: 100%;
+}
+
+.app__healt_providers_info {
+    max-width: 500px;
+    padding: 3rem;
+    margin-left: 3rem;
+}
+
+.app__healt_providers_info h2:after {
+    content: '';
+    display: block;
+    width: 56px;
+    height: 2px;
+    background: black;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 1150px) { 
+    .app__healt_providers {
+        margin-right: 0;
+    }
+
+    .app__healt_providers-bg {
+        right: -0;
+    }
+    
+    .app__healt_providers_info {
+        margin-top: 2rem;
+        margin-left: 0;
+        text-align: center;
+    }
+    .app__healt_providers_info h2:after {
+        margin: 1.5rem auto;
+       
+    }
+
+    
+}
